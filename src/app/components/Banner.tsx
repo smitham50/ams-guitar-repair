@@ -1,11 +1,11 @@
 const Banner: React.FC = () => {
   return (
-    <div className="flex h-68 bg-[#fcefd3]">
-      <p className="my-auto mx-60 text-center text-3xl text-[Pepi/Rudi]">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laborum
-        officiis animi nihil modi. Dignissimos quod odit in commodi officiis
-        fugit explicabo dolorum, rem tempore, sit voluptates quia veritatis
-        dolore?
+    <div className="flex flex-col h-68 bg-[#fcefd3]">
+      <p className="mt-auto mb-10 mx-60 text-center text-4xl text-[Pepi/Rudi]">
+        Setups and Repairs
+      </p>
+      <p className="text-lg text-center mb-auto text-[Qanelas]">
+        We make guitars and basses at all price points sound and feel amazing.
       </p>
     </div>
   );
