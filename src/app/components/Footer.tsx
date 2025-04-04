@@ -1,5 +1,10 @@
 const Footer: React.FC = () => {
-  return <footer className="bottom-0 fixed sticky h-34 bg-[#ededed]"></footer>;
+  return (
+    <footer className="flex bottom-0 fixed sticky h-34 bg-[#ededed]">
+      <p></p>
+    </footer>
+
+  )
 }
 
 export default Footer;
