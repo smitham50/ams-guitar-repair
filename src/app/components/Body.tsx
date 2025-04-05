@@ -1,7 +1,7 @@
 const Body: React.FC = () => {
   return (
     <main className="md:flex-grow sm:flex sm:flex-col md:grid md:grid-cols-4 md:gap-20 text-[Qanelas]">
-      <div className="sm:p-3 flex flex-col md:ml-5 md:col-span-2 md:text-md">
+      <div className="sm:px-10 flex flex-col md:ml-5 md:col-span-2 md:text-md">
         <div className="my-4">
           <p className="md:text-2xl text-[Pepi/Rudi] mb-2">Setups</p>
           <p>
