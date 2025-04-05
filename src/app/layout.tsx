@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { BUSINESS_NAME } from "@/constants/constants";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ams-guitar-repair.vercel.app/"),
-  title: "AMS Guitar Repair",
+  title: BUSINESS_NAME,
   description: "Guitar repairs and setups in Brooklyn, New York",
 };
 
