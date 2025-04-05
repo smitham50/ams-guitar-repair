@@ -1,5 +1,3 @@
 module.exports = {
-  daisyui: {
-    themes: false,
-  },
+  dark: 'false',
 };
