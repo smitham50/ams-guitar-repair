@@ -1,6 +1,6 @@
 const Banner: React.FC = () => {
   return (
-    <div className="sm:py-15 flex flex-col sm:h-30 md:h-68 bg-[#fcefd3]">
+    <div className="flex flex-col sm:h-50 md:h-68 bg-[#fcefd3]">
       <p className="mt-auto md:mb-10 md:mx-60 text-center sm:txt-lg md:text-4xl text-[Pepi/Rudi]">
         Setups and Repairs
       </p>
